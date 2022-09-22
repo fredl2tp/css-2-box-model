@@ -1,0 +1,72 @@
+* {
+  padding: 0; /*internal margins*/
+  margin: 0; /*external margins*/
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(253, 253, 253);
+  color: #333;
+}
+nav {
+  background-color: #080802;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+ul li {
+  padding: 1rem 2rem 1rem 2rem;
+  display: block;
+  color: #b2acac;
+  text-decoration: none;
+}
+li:nth-of-type(2) {
+  background: rgb(230 230 230);
+}
+.carousel {
+  padding: 0 0 13rem 0;
+  background: rgb(230 230 230);
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+span {
+  font-size: 1rem;
+}
+#flexcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+article {
+  background-color: rgb(230 230 230);
+  width: 32%;
+  height: 15rem;
+  margin: 0 3px 8% 3px;
+}
+form {
+  margin: 0 auto; /*Center + distance to h2*/
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  margin: 1%;
+}
+
+textarea {
+  width: 90%;
+  height: 10rem;
+  margin: 1%;
+}
+
+#bar {
+  border-bottom: solid 0.1rem;
+}
+h2 {
+  margin-top: 2rem;
+}
